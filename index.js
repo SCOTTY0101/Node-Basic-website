@@ -32,8 +32,10 @@ const server = http.createServer((req, res) => {
             break;
         case '.jpg':
             contentType = 'image/jpg'
-            break;    
-    }
+            break;   
+        case '.svg':
+            contentType = 'image/svg'
+    };
 
     //Check if ContentType is text/html but no .html file extension
     if (contentType == 'text/html' && extname == '') filePath += '.html';
@@ -63,6 +65,6 @@ const server = http.createServer((req, res) => {
     })
 });
 
-// change the port number to suit.
-const PORT = process.env.PORT || 8080; 
+// change the port number to suit. ie 5000, 8080.
+const PORT = process.env.PORT || 3000; 
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
