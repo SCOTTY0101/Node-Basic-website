@@ -34,7 +34,7 @@ const server = http.createServer((req, res) => {
             contentType = 'image/jpg'
             break;   
         case '.svg':
-            contentType = 'image/svg'
+            contentType = 'image/svg+xml'
     };
 
     //Check if ContentType is text/html but no .html file extension
