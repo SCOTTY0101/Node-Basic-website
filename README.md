@@ -1,1 +1,1 @@
-# Node-basic-website. Testing node server.
+# Node-basic-website. Setting up and testing a nodeJS server.
