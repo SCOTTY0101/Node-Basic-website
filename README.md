@@ -1,1 +1,2 @@
-# Node-basic-website. Setting up and testing a nodeJS server.
+# Node-basic-website. Set up and run a nodeJS server.
+Coded using vim.
